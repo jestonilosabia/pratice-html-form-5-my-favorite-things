@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book, Movie, and Music Form</title>
+</head>
+<body>
+  <form id="book-movie-music-form" method="GET" action="your_html_file.html">
+    <div>
+      <h1> My Favorite Things </h1>
+      <h2> Books I've Read </h2>
+      <ul id="books">
+        <li><input type="checkbox" name="book" value="The Lord of the Rings">The Lord of the Rings</li>
+        <li><input type="checkbox" name="book" value="To Kill a Mockingbird">To Kill a Mockingbird</li>
+        <li><input type="checkbox" name="book" value="The Great Gatsby">The Great Gatsby</li>
+      </ul>
+    </div>
+    <div>
+      <h2> Movies Ratings </h2>
+      <ul id="movies">
+        <li>The Shawshank Redemption<input type="range" name="movie" min="1" max="10" step="1" value="5"></li>
+        <li>The Godfather<input type="range" name="movie" min="1" max="10" step="1" value="5"></li>
+        <li>Pulp Fiction<input type="range" name="movie" min="1" max="10" step="1" value="5"></li>
+      </ul>
+    </div>
+    <div>
+      <h2> Best Music </h2>
+      <ol id="music">
+        <li><input type="radio" name="music" value="The Beatles">The Beatles</li>
+        <li><input type="radio" name="music" value="Bob Dylan">Bob Dylan</li>
+        <li><input type="radio" name="music" value="Johnny Cash">Johnny Cash</li>
+      </ol>
+    </div>
+  </form>
+</body>
+</html>
